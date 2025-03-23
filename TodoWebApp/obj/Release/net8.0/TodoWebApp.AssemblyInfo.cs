@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("3e893fc2-e3cd-4b00-af11-bb35a02668a6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b04fb15b0cf2ad03091bc34ba16479f8e3d1dd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

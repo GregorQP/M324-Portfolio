@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "Ly6b5bvJJugYZc6jxOzQ119BsF73DCkcpP60z+Ym95M=",
+  "Source": "TodoWebApp",
+  "BasePath": "_content/TodoWebApp",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TodoWebApp\\wwwroot",
+      "Source": "TodoWebApp",
+      "ContentRoot": "C:\\Users\\rug\\source\\repos\\M324-Portfolio\\TodoWebApp\\wwwroot\\",
+      "BasePath": "_content/TodoWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rug\\source\\repos\\M324-Portfolio\\TodoWebApp\\wwwroot\\index.html",
+      "SourceId": "TodoWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rug\\source\\repos\\M324-Portfolio\\TodoWebApp\\wwwroot\\",
+      "BasePath": "_content/TodoWebApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

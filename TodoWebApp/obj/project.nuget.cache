@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CKsG+lg9IztWC63z7mTy1U2rWErdPYkZ2BPmQ8QhsIKtZ2VbInZFO3/TdvOD0mNTpeZgKFYyFsCoLTEBg+skxg==",
+  "dgSpecHash": "86dKaLmw97XZZ714Nrzns5JXIBz697guao8bXsDwO0OaqJUYgOSG6P3zAMZRG+4lQ6SEIQcKXkQKLxyKKe0lxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rug\\source\\repos\\M324-Portfolio\\TodoWebApp\\TodoWebApp.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\rug\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.5.3\\microsoft.testing.platform.msbuild.1.5.3.nupkg.sha512",
     "C:\\Users\\rug\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.13.0\\microsoft.testplatform.objectmodel.17.13.0.nupkg.sha512",
     "C:\\Users\\rug\\.nuget\\packages\\microsoft.testplatform.testhost\\17.13.0\\microsoft.testplatform.testhost.17.13.0.nupkg.sha512",
+    "C:\\Users\\rug\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\rug\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\rug\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512",
     "C:\\Users\\rug\\.nuget\\packages\\nunit3testadapter\\5.0.0\\nunit3testadapter.5.0.0.nupkg.sha512",

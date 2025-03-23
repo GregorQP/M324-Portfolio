@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-Liste</title>
+</head>
+<body>
+    <h1>ToDo-Liste</h1>
+    <input id="taskInput" type="text" placeholder="Neue Aufgabe hinzufügen">
+    <button onclick="addTask()">Hinzufügen</button>
+    <ul id="taskList"></ul>
+
+    <script>
+        async function fetchTasks() {
+            const response = await fetch('/tasks');
+            const tasks = await response.json();
+            const taskList = document.getElementById('taskList');
+            taskList.innerHTML = '';
+            tasks.forEach((task, index) => {
+                const li = document.createElement('li');
+                li.innerHTML = `${task} <button onclick="deleteTask(${index})">Entfernen</button>`;
+                taskList.appendChild(li);
+            });
+        }
+
+        async function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            await fetch('/tasks', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(taskInput.value)
+            });
+            taskInput.value = '';
+            fetchTasks();
+        }
+
+        async function deleteTask(index) {
+            await fetch(`/tasks/${index}`, { method: 'DELETE' });
+            fetchTasks();
+        }
+
+        fetchTasks();
+    </script>
+</body>
+</html>
